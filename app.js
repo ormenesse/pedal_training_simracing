@@ -208,8 +208,8 @@ function createGraphs() {
   const opts = { secondsPer1080px, widthPx: graphWidthPx };
   steeringGraph = new TelemetryGraph(steeringCanvas, {
     ...opts,
-    yMin: -1080,
-    yMax: 1080,
+    yMin: -180,
+    yMax: 180,
   });
   brakeGraph = new TelemetryGraph(brakeCanvas, {
     ...opts,
