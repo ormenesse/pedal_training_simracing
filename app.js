@@ -242,7 +242,7 @@ function loop() {
   const brakeRaw = getBrakeValue();
   const throttleRaw = getThrottleValue();
 
-  const steeringValue = steeringRaw * 1080;
+  const steeringValue = steeringRaw * 540;
   const brakeValue = brakeRaw * 100;
   const throttleValue = throttleRaw * 100;
 
